@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 * {
-  margin-top: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -38,6 +38,7 @@ body {
   font-family: Merriweather;
   font-size: 32px;
   font-weight: 400;
+  margin-bottom: 16px;
 }
 .header-h1-text {
   color: #fff;
@@ -55,7 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: solid 2px red;
+  margin-bottom: 120px;
 }
 .discount-h2-text {
   color: #f00;
@@ -63,6 +64,7 @@ body {
   font-family: Inter;
   font-size: 88px;
   font-weight: 700;
+  margin-bottom: 48px;
 }
 .discount-p-text {
   color: #f00;
@@ -70,6 +72,7 @@ body {
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
+  margin-bottom: 16px;
 }
 .discount-h3-text {
   color: #070211;
@@ -77,9 +80,49 @@ body {
   font-family: Inter;
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 48px;
+ 
 }
 
-.discount-off-content img {
-  height: 100%;
-  width: 100%;
+/*--------------------------------------Well-Come-Part---------------------------------------- */
+#well-come-section {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../img/Vectorrr.png);
+  width: 1320px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+.well-come-content {
+  width: 719px;
+  height: 322px;
+  color: #fff;
+  margin-left: 126px;
+}
+.well-come-h3-text {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+.well-come-p-text {
+  color: rgba(255, 255, 255, 0.645);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 48px;
+}
+.btn {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
 }
